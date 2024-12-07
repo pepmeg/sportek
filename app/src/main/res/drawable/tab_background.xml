@@ -1,0 +1,7 @@
+<!-- res/drawable/tab_background_with_angle.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#2A3554" />
+    <path
+        android:fillColor="#2A3554"
+        android:pathData="M0,100 L100,0 L100,100 Z" />
+</shape>

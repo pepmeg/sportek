@@ -1,0 +1,24 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Нижний слой: фон градиента -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" /> <!-- Закруглённые углы -->
+            <gradient
+                android:startColor="#34C8E8"
+                android:endColor="#4E4AF2"
+                android:angle="45" /> <!-- Градиент от голубого к синему -->
+        </shape>
+    </item>
+
+    <!-- Граница кнопки -->
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="16dp" />
+            <stroke
+                android:width="2dp"
+                android:color="#99FFFFFF" /> <!-- Полупрозрачная белая граница -->
+        </shape>
+    </item>
+
+</layer-list>
